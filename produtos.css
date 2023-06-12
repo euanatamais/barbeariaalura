@@ -1,5 +1,5 @@
 header {
-	background: #BBBBBB;
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -30,6 +30,7 @@ nav a {
 .produtos{
 	width: 940px;
 	margin: 0 auto;
+		
 }
 .produtos li{
 	display: inline-block;
@@ -47,4 +48,8 @@ nav a {
 .produtos-preco{
 	font-size: 22px;
 	font-weight: bold;
+}
+
+.produto-drecricao{
+	font-size: 18px;
 }
