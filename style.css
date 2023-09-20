@@ -125,3 +125,18 @@ form input-padrao{
 	padding: 8px 15px;
 	width: 50%;
 }
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #093fa3;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid black;
+	padding: 15px 10px;
+}
