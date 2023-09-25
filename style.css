@@ -93,16 +93,21 @@ main{
 	margin: 0 auto;
 }
 
-form{
+form label{
+	
 	margin: 40px 0;
 }
 
 input{
 	border: 2px solid rgb(38, 0, 255);
+	
 	border-radius: 5px;
 
 }
 
+textarea{
+    margin:0 0 20px 0;
+}
 
 form{
 	margin: 40px 0;
