@@ -1,5 +1,5 @@
- header {
-	background: #093fa3;
+header {
+	background: #ccc;
 	padding: 20px 0;
 }
 
@@ -22,14 +22,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: white;
+	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover{
-	color: #19c7be;
+	color: #c78c19;
 	text-decoration: underline;
 }
 
@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-	border-color: #19c7b8;
+	border-color: #c78c19;
 	
 }
 
@@ -93,42 +93,54 @@ main{
 	margin: 0 auto;
 }
 
-form label{
-	
+form{
 	margin: 40px 0;
 }
 
 input{
-	border: 2px solid rgb(38, 0, 255);
 	
 	border-radius: 5px;
 
 }
 
-textarea{
-    margin:0 0 20px 0;
-}
-
-form{
-	margin: 40px 0;
-}
-
-input:hover{
-	border: 2px solid rgb(43, 220, 226);
-}
 
 
 form label{
 	display: block;
 	font-size: 20px;
-	margin: 8px;
+	margin: 0 0 10px 0;
+	
 }
 
-form input-padrao{
+form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
-	padding: 8px 15px;
+	padding: 10px 25px;
 	width: 50%;
+}
+
+textarea{
+	margin:0 0 20px 0;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background-color:orange ;
+	color: aquamarine;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+
+.enviar:hover{
+	background-color: black;
+	color: white;
+	transform: scale(1.05);
 }
 
 table{
@@ -136,12 +148,62 @@ table{
 }
 
 thead{
-	background: #093fa3;
-	color: rgb(255, 255, 255);
+	background: #555;
+	color: white;
 	font-weight: bold;
 }
 
 td{
-	border: 1px solid black;
-	padding: 15px 10px;
+	border: 2px solid #000;
+	padding: 15px 66px;
 }
+
+/*CSS da página principal*/
+.banner{
+	width: 100%;
+}
+
+.titulo-centralizado{
+	
+	text-align: center;
+	font-size: 2.5em;
+	margin: 1em 0 1em;
+	font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.principal p{
+	margin: 0 0 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: justify;
+	
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagembeneficios{
+	width: 60%;
+}
+
+.utensilios{
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+

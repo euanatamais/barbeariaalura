@@ -8,7 +8,7 @@
 	</head>
 	<header>
 		<div class="caixa">
-			<h1><img src="logo-branco.png"></h1>
+			<h1><img src="logo.png"></h1>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -21,59 +21,58 @@
 	<main>
 		<form action="">
 			<label for="nomesobrenome">Nome e Sobrenome</label>
-			<input type="text" id="nomesobrenome" class="input-padrao">
+			<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Digite seu nome e sobrenome">
 
 			<label for="email">Email</label>
-			<input type="text" id="email" class="input-padrao">
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
 			<label for="telefone">Telefone</label>
-			<input type="text" id="telefone"class="input-padrao">
-			
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 			<label for="mensagem">Digite sua mensagem:</label>
-            <textarea name="mensagem" id="mensagem" cols="62" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+			<textarea name="mensagem" id="mensagem" cols="62" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
 
-             <div> 
-					<p<in>como prefere nosso contato</p>
+				<div>
+					<label for="">Como prefere o nosso contato?</label>
+				
 					
 					<label for="email-radio"><input type="radio" value="email" id="email-radio" name="contato">Email</label>
-
+		
 					
-					<label for="ligação"><input type="radio" value="ligação" id="ligação" name="contato">ligação</label>
-
 					
-					<label for="whatsapp"><input type="radio" value="whatsapp" id="whatsapp-radio" name="contato">whatsapp</label>
-			</div>
+					<label for="ligaçao"><input type="radio" value="ligaçao" id="ligaçao" name="contato">Ligação</label>
+		
+					
+					<label for="whatsapp-radio"><input type="radio" value="whatsapp" id="whatsapp-radio" name="contato">Whatsapp</label>
+			    </div>
+				
+			<label><input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+			
 
-
-
-            <label> <input type="checkbox">gostaria de receber nossas novidades por e-mail</label>
-           
-
-			<input type="submit" value="Enviar">
+			<input class="enviar" type="submit" value="Clique aqui!!">
 
 		</form>
 
 		<table>
-            <thead>
+			<thead>
 				<tr>
-					<td>Dia</td>
-					<td>Horario</td>
+					<td>Dia </td>
+					<td>Horário</td>
 				</tr>
 			</thead>
 			
 			<tbody>
 				<tr>
-					<td>Sugunda</td>
-					<td>8h-20h</td>
+					<td>Segunda</td>
+					<td>8h - 20h</td>
 				</tr>
 				<tr>
 					<td>Quarta</td>
-					<td>8h-20h</td>
+					<td>8h - 20h</td>
 				</tr>
 				<tr>
 					<td>Sexta</td>
-					<td>8h-20h</td>
+					<td>8h - 20h</td>
 				</tr>
 			</tbody>
 			
@@ -82,7 +81,9 @@
 	</main>
 
 	
-
+	
+	
+	
 	<footer>
 
 
